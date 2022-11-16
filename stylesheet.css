@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
+    width: fit-content;
+}
+.length {
+    background-color: hsl(212, 39%, 49%); 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+.cut {
+    background-color: hsl(36, 98%, 51%); 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
