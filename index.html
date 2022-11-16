@@ -6,14 +6,18 @@
     <body>
         <script src = 'strings.js'></script>
     <div class="container">
-        <p id = 'paragraph1'>Domo arigato Mr. Roboto.</p>
+        <p id = 'paragraph1'>Domo arigato, Mr. Roboto.</p>
         <p id = 'paragraph2'>How long am I?</p>
         <button class = "length" onclick='puppetStrings(document.getElementById("paragraph1").innerHTML)'>
             Check Length
         </button>
-        <p id = 'paragraph3'>Let cut me up!</p>
-        <button class = "cut" onclick='sliceString(document.getElementById("paragraph1").innerHTML, 20, 23)'>
+        <p id = 'paragraph3'>Have a slice</p>
+        <button class = "slice" onclick='sliceString(document.getElementById("paragraph1").innerHTML, -20, -2)'>
             Slice
+        </button>
+        <p id = 'paragraph4'>Sub me</p>
+        <button class = "sub" onclick='subString(document.getElementById("paragraph1").innerHTML, 2, 21)'>
+            Sub
         </button>
     </div>
     </body>
