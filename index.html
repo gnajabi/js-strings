@@ -5,27 +5,27 @@
     </head>
     <body>
         <script src = 'strings.js'></script>
-    <div class="container">
+    <div class="container1">
         <p id = 'paragraph1'>We all live in a blue submarine, blue submarine</p>
         <p id = 'paragraph2'>How long am I?</p>
     </div>
-    <div class="container">
+    <div class="container1">
         <button class = "length" onclick='puppetStrings(document.getElementById("paragraph1").innerHTML)'>
             Check Length
         </button>
     </div>
-    <div class="container">
+    <div class="container1">
         <p id = 'paragraph3'>Have a slice</p>
     </div>
-    <div class="container">
+    <div class="container1">
         <button class = "slice" onclick='sliceString(document.getElementById("paragraph1").innerHTML, -20, -2)'>
             Slice
         </button>
     </div>
-    <div class="container">
+    <div class="container1">
         <p id = 'paragraph4'>Sub me</p>
     </div>
-    <div class="container">
+    <div class="container1">
         <button class = "sub" onclick='subString(document.getElementById("paragraph1").innerHTML, -2, 4)'>
             Sub
         </button>
@@ -37,6 +37,24 @@
         <!--To replace all matches, use a regular expression with a /g flag-->
         <button class = "replace" onclick='replaceString(/blue/g,"yellow")'>
             Fix
+        </button>
+    </div>
+    <div class="container">
+        <p id = 'paragraph5'>Change to lower case</p>
+    </div>
+    <div class="container">
+        <!--To lower case-->
+        <button class = "lower-case" onclick='lowerCase()'>
+            lower case
+        </button>
+    </div>
+    <div class="container">
+        <p id = 'paragraph6'>Change to upper case</p>
+    </div>
+    <div class="container">
+        <!--To lower case-->
+        <button class = "upper-case" onclick='upperCase()'>
+            UPPER CASE
         </button>
     </div>
     </body>
