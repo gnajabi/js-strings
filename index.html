@@ -6,18 +6,37 @@
     <body>
         <script src = 'strings.js'></script>
     <div class="container">
-        <p id = 'paragraph1'>Domo arigato, Mr. Roboto.</p>
+        <p id = 'paragraph1'>We all live in a blue submarine, blue submarine</p>
         <p id = 'paragraph2'>How long am I?</p>
+    </div>
+    <div class="container">
         <button class = "length" onclick='puppetStrings(document.getElementById("paragraph1").innerHTML)'>
             Check Length
         </button>
+    </div>
+    <div class="container">
         <p id = 'paragraph3'>Have a slice</p>
+    </div>
+    <div class="container">
         <button class = "slice" onclick='sliceString(document.getElementById("paragraph1").innerHTML, -20, -2)'>
             Slice
         </button>
+    </div>
+    <div class="container">
         <p id = 'paragraph4'>Sub me</p>
+    </div>
+    <div class="container">
         <button class = "sub" onclick='subString(document.getElementById("paragraph1").innerHTML, -2, 4)'>
             Sub
+        </button>
+    </div>
+    <div class="container">
+        <p id = 'paragraph5'>Yellow!</p>
+    </div>
+    <div class="container">
+        <!--To replace all matches, use a regular expression with a /g flag-->
+        <button class = "replace" onclick='replaceString(/blue/g,"yellow")'>
+            Fix
         </button>
     </div>
     </body>

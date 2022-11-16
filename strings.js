@@ -17,3 +17,9 @@ function subString(puppet, start, end){
 
     document.getElementById("paragraph4").innerHTML=sub
 }
+
+function replaceString(oldStr, newStr){
+    let text = document.getElementById("paragraph1").innerHTML
+    document.getElementById("paragraph1").innerHTML = text.replace(oldStr, newStr)
+
+}

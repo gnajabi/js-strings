@@ -1,13 +1,13 @@
 .container {
     display: grid;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 10px;
     column-gap: 10px;
     row-gap: 10px;
-    width: fit-content;
+    width:max-content;
 }
 .length {
     background-color: hsl(212, 39%, 49%); 
@@ -32,10 +32,21 @@
     font-size: 18px;
 }
 .sub {
-    background-color: hsl(147, 98%, 51%); 
+    background-color: hsl(138, 92%, 47%); 
     border: none;
     border-radius: 10px;
     color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+.replace {
+    background-color: hsl(54, 97%, 49%); 
+    border: none;
+    border-radius: 10px;
+    color: rgb(37, 37, 37);
     padding: 5px 20px;
     text-align: center;
     text-decoration: none;
