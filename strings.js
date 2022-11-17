@@ -20,15 +20,20 @@ function subString(puppet, start, end){
 
 function replaceString(oldStr, newStr){
     let text = document.getElementById("paragraph1").innerHTML
-    document.getElementById("paragraph1").innerHTML = text.replace(oldStr, newStr)
+    document.getElementById("paragraph5").innerHTML = text.replace(oldStr, newStr)
 }
 
 function lowerCase(){
     let text = document.getElementById("paragraph1").innerHTML
-    document.getElementById("paragraph1").innerHTML = text.toLowerCase()
+    document.getElementById("paragraph6").innerHTML = text.toLowerCase()
 }
 
 function upperCase(){
     let text = document.getElementById("paragraph1").innerHTML
-    document.getElementById("paragraph1").innerHTML = text.toUpperCase()
+    document.getElementById("paragraph7").innerHTML = text.toUpperCase()
+}
+
+function letsSplit(){
+    let text = document.getElementById("paragraph1").innerHTML
+    document.getElementById("paragraph8").innerHTML= text.split("")
 }

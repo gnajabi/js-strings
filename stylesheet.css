@@ -15,10 +15,10 @@
     width:max-content;
 }
 .length {
-    background-color: hsl(212, 39%, 49%); 
+    background-color: hsl(212, 71%, 66%); 
     border: none;
     border-radius: 10px;
-    color: white;
+    color: #2b2929;
     padding: 5px 20px;
     text-align: center;
     text-decoration: none;
@@ -26,7 +26,7 @@
     font-size: 18px;
 }
 .slice {
-    background-color: hsl(36, 98%, 51%); 
+    background-color: hsl(240, 78%, 70%) ; 
     border: none;
     border-radius: 10px;
     color: white;
@@ -37,7 +37,7 @@
     font-size: 18px;
 }
 .sub {
-    background-color: hsl(138, 92%, 47%); 
+    background-color: hsl(261, 92%, 47%); 
     border: none;
     border-radius: 10px;
     color: white;
@@ -48,10 +48,10 @@
     font-size: 18px;
 }
 .replace {
-    background-color: hsl(54, 97%, 49%); 
+    background-color: hsl(283, 10%, 40%);
     border: none;
     border-radius: 10px;
-    color: rgb(37, 37, 37);
+    color: rgb(245, 236, 236);
     padding: 5px 20px;
     text-align: center;
     text-decoration: none;
@@ -59,7 +59,7 @@
     font-size: 18px;
 }
 .lower-case {
-    background-color: hsl(0, 79%, 72%); 
+    background-color: hsl(256, 79%, 72%); 
     border: none;
     border-radius: 10px;
     color: rgb(37, 37, 37);
@@ -71,10 +71,22 @@
 
 }
 .upper-case {
-    background-color: hsl(256, 79%, 72%); 
+    background-color: hsl(310, 27%, 50%); 
     border: none;
     border-radius: 10px;
     color: rgb(37, 37, 37);
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+
+}
+.split {
+    background-color: hsl(319, 14%, 26%); 
+    border: none;
+    border-radius: 10px;
+    color: white;
     padding: 5px 20px;
     text-align: center;
     text-decoration: none;
