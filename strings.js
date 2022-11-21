@@ -53,3 +53,10 @@ function strikeAMatch(puppet) {
     const arr = str.match(puppet)
     document.getElementById("paragraph11").innerHTML = arr + '</br>' + arr.length
 }
+
+function iterateMatch(puppet) {
+    let str = document.getElementById("paragraph1").innerHTML
+    const iterator = str.matchAll(puppet)
+    document.getElementById("paragraph12").innerHTML = Array.from(iterator)
+
+}

@@ -32,7 +32,7 @@
         <div class="box">
             <p id='paragraph5'>it's yellow!</p>
             <!--To replace all matches, use a regular expression with a /g flag-->
-            <button class="replace" onclick='replaceString(/blue/g,"yellow")'>
+            <button class="replace" onclick='replaceString(/blue/gi,"yellow")'>
                 Fix
             </button>
         </div>
@@ -76,6 +76,13 @@
             <!--regex case insensitive match-->
             <button class="match" onclick='strikeAMatch(/blue/gi)'>
                 Match
+            </button>
+        </div>
+        <div class="box">
+            <p id='paragraph12'>Return an iterator containing the strings that match the text specified</p>
+            <!--regex case insensitive match-->
+            <button class="matchAll" onclick='iterateMatch(/blue/gi)'>
+                Match All
             </button>
         </div>
     </div>
