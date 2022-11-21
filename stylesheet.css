@@ -111,3 +111,27 @@
     display: inline-block;
     font-size: 18px;
 }
+
+.dernier {
+    background-color: #00b33c;
+    border: none;
+    border-radius: 10px;
+    color: rgb(37, 37, 37);
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.match {
+    background-color: #009933;
+    border: none;
+    border-radius: 10px;
+    color: rgb(37, 37, 37);
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}

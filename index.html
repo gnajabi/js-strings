@@ -9,7 +9,7 @@
     <script src='strings.js'></script>
     <div class="container">
         <div class="box">
-            <h2 id='paragraph1'>We all live in a blue submarine, blue submarine</h2>
+            <h2 id='paragraph1'>We all live in a Blue submarine, blue submarine</h2>
         </div>
         <div class="box">
             <p id='paragraph2'>How long am I?</p>
@@ -59,9 +59,23 @@
         </div>
         <div class="box">
             <p id='paragraph9'>Find the position of the first occurrence of a string</p>
-            <!--Searching for strings-->
+            <!--Searching for texts-->
             <button class="chercher" onclick='chercher("blue")'>
                 Search
+            </button>
+        </div>
+        <div class="box">
+            <p id='paragraph10'>Find the position of the last occurrence of a string</p>
+            <!--Searching for texts-->
+            <button class="dernier" onclick='dernier("blue")'>
+                Search
+            </button>
+        </div>
+        <div class="box">
+            <p id='paragraph11'>Return an array containing the strings that match the text specified</p>
+            <!--regex case insensitive match-->
+            <button class="match" onclick='strikeAMatch(/blue/gi)'>
+                Match
             </button>
         </div>
     </div>
