@@ -1,4 +1,4 @@
-.container {
+.container-1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -145,4 +145,43 @@
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 15px;
+    padding: 50px;
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+    background-color: #8d0fd6;
+    
+}
+
+.form:nth-child(1) {
+    grid-column: 2/3;
+    padding: 50px, 50px;
+}
+
+.form:nth-child(2) {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.verify {
+    background-color: #0fd651;
+    border: none;
+    border-radius: 10px;
+    color: rgb(37, 37, 37);
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    width: fit-content;
 }

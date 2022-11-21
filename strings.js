@@ -60,3 +60,22 @@ function iterateMatch(puppet) {
     document.getElementById("paragraph12").innerHTML = Array.from(iterator)
 
 }
+
+function verifyEmail() {
+    try {
+        //retrieve email address
+        let address = document.getElementById('email').value
+        if (address.includes('@') && address.endsWith('gmail.com')) {
+            document.getElementsByClassName('form')[0].style.background = '#0fd651;'
+            document.getElementsByClassName('verify')[0].innerHTML = 'Verified'
+        }
+        else {
+            document.getElementsByClassName('verify')[0].style.background = '#ff9900'
+            document.getElementsByClassName('verify')[0].innerHTML = 'Try Again'
+        }
+    }
+    catch (e) {
+        console.log(e)
+    }
+
+}
