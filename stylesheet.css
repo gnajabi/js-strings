@@ -1,65 +1,68 @@
 .container {
     display: grid;
-    margin-left: 10%;
-    border-radius: 5px;
-    column-gap: 5px;
-    row-gap: 5px;
-    width:max-content;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 15px;
+    padding: 15px;
+    vertical-align: middle;
+    text-align: center;
+    background: #b3ffcc;
 }
-.container1 {
-    display: grid;
-    margin-left: 10%;
-    border-radius: 5px;
-    column-gap: 5px;
-    row-gap: 5px;
-    width:max-content;
+
+.box:nth-child(1) {
+    grid-column: 1/4;
 }
+
 .length {
-    background-color: hsl(212, 71%, 66%); 
+    background-color: #80ffaa;
     border: none;
     border-radius: 10px;
-    color: #2b2929;
+    color: rgb(37, 37, 37);
     padding: 5px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
 }
+
 .slice {
-    background-color: hsl(240, 78%, 70%) ; 
+    background-color: #66ff99;
     border: none;
     border-radius: 10px;
-    color: white;
+    color: rgb(37, 37, 37);
     padding: 5px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
 }
+
 .sub {
-    background-color: hsl(261, 92%, 47%); 
+    background-color: #4dff88;
     border: none;
     border-radius: 10px;
-    color: white;
+    color: rgb(37, 37, 37);
     padding: 5px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
 }
+
 .replace {
-    background-color: hsl(283, 10%, 40%);
+    background-color: #33ff77;
     border: none;
     border-radius: 10px;
-    color: rgb(245, 236, 236);
+    color: rgb(37, 37, 37);
     padding: 5px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
 }
+
 .lower-case {
-    background-color: hsl(256, 79%, 72%); 
+    background-color: #1aff66;
     border: none;
     border-radius: 10px;
     color: rgb(37, 37, 37);
@@ -70,8 +73,9 @@
     font-size: 18px;
 
 }
+
 .upper-case {
-    background-color: hsl(310, 27%, 50%); 
+    background-color: #00ff55;
     border: none;
     border-radius: 10px;
     color: rgb(37, 37, 37);
@@ -82,15 +86,28 @@
     font-size: 18px;
 
 }
+
 .split {
-    background-color: hsl(319, 14%, 26%); 
+    background-color: #00e64d;
     border: none;
     border-radius: 10px;
-    color: white;
+    color: rgb(37, 37, 37);
     padding: 5px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
 
+}
+
+.chercher {
+    background-color: #00cc44;
+    border: none;
+    border-radius: 10px;
+    color: rgb(37, 37, 37);
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
 }

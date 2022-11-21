@@ -37,3 +37,8 @@ function letsSplit(){
     let text = document.getElementById("paragraph1").innerHTML
     document.getElementById("paragraph8").innerHTML= text.split("")
 }
+
+function chercher(puppet){
+    let str = document.getElementById("paragraph1").innerHTML
+    document.getElementById("paragraph9").innerHTML=str.indexOf(puppet)
+}

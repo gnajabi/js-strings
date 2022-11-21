@@ -1,70 +1,70 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="stylesheet.css">
-    </head>
-    <body>
-        <script src = 'strings.js'></script>
-    <div class="container1">
-        <p id = 'paragraph1'>We all live in a blue submarine, blue submarine</p>
-        <p id = 'paragraph2'>How long am I?</p>
-    </div>
-    <div class="container1">
-        <button class = "length" onclick='puppetStrings(document.getElementById("paragraph1").innerHTML)'>
-            Check Length
-        </button>
-    </div>
-    <div class="container1">
-        <p id = 'paragraph3'>Have a slice</p>
-    </div>
-    <div class="container1">
-        <button class = "slice" onclick='sliceString(document.getElementById("paragraph1").innerHTML, -20, -2)'>
-            Slice
-        </button>
-    </div>
-    <div class="container1">
-        <p id = 'paragraph4'>Sub me</p>
-    </div>
-    <div class="container1">
-        <button class = "sub" onclick='subString(document.getElementById("paragraph1").innerHTML, -2, 4)'>
-            Sub
-        </button>
-    </div>
+
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <script src='strings.js'></script>
     <div class="container">
-        <p id = 'paragraph5'>it's yellow!</p>
+        <div class="box">
+            <h2 id='paragraph1'>We all live in a blue submarine, blue submarine</h2>
+        </div>
+        <div class="box">
+            <p id='paragraph2'>How long am I?</p>
+            <button class="length" onclick='puppetStrings(document.getElementById("paragraph1").innerHTML)'>
+                Check Length
+            </button>
+        </div>
+        <div class="box">
+            <p id='paragraph3'>Have a slice</p>
+            <button class="slice" onclick='sliceString(document.getElementById("paragraph1").innerHTML, -20, -2)'>
+                Slice
+            </button>
+        </div>
+        <div class="box">
+            <p id='paragraph4'>Sub me</p>
+            <button class="sub" onclick='subString(document.getElementById("paragraph1").innerHTML, -2, 4)'>
+                Sub
+            </button>
+        </div>
+        <div class="box">
+            <p id='paragraph5'>it's yellow!</p>
+            <!--To replace all matches, use a regular expression with a /g flag-->
+            <button class="replace" onclick='replaceString(/blue/g,"yellow")'>
+                Fix
+            </button>
+        </div>
+        <div class="box">
+            <p id='paragraph6'>Change to lower case</p>
+            <!--To lower case-->
+            <button class="lower-case" onclick='lowerCase()'>
+                lower case
+            </button>
+        </div>
+        <div class="box">
+            <p id='paragraph7'>Change to upper case</p>
+            <!--To lower case-->
+            <button class="upper-case" onclick='upperCase()'>
+                UPPER CASE
+            </button>
+        </div>
+        <div class="box">
+            <p id='paragraph8'>Split the characters</p>
+            <!--Splitting characters-->
+            <button class="split" onclick='letsSplit()'>
+                Split
+            </button>
+        </div>
+        <div class="box">
+            <p id='paragraph9'>Find the position of the first occurrence of a string</p>
+            <!--Searching for strings-->
+            <button class="chercher" onclick='chercher("blue")'>
+                Search
+            </button>
+        </div>
     </div>
-    <div class="container">
-        <!--To replace all matches, use a regular expression with a /g flag-->
-        <button class = "replace" onclick='replaceString(/blue/g,"yellow")'>
-            Fix
-        </button>
-    </div>
-    <div class="container">
-        <p id = 'paragraph6'>Change to lower case</p>
-    </div>
-    <div class="container">
-        <!--To lower case-->
-        <button class = "lower-case" onclick='lowerCase()'>
-            lower case
-        </button>
-    </div>
-    <div class="container">
-        <p id = 'paragraph7'>Change to upper case</p>
-    </div>
-    <div class="container">
-        <!--To lower case-->
-        <button class = "upper-case" onclick='upperCase()'>
-            UPPER CASE
-        </button>
-    </div>
-    <div class="container1">
-        <p id = 'paragraph8'>Split the characters</p>
-    </div>
-    <div class="container1">
-        <!--Splitting characters-->
-        <button class = "split" onclick='letsSplit()'>
-            Split
-        </button>
-    </div>
-    </body>
+</body>
+
 </html>
